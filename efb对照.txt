@@ -1,0 +1,261 @@
+# A350 EFB 中文层 —— 词典
+#
+# 原理：只在渲染层替换文字节点，匹配不上就不动，绝不影响 EFB 逻辑。
+# 格式：英文原文=中文译文     （# 开头为注释，必须与屏幕上显示的原文完全一致）
+# 改完重新运行 A350座舱中文.exe 即可生效，无需重新编译。
+
+# ==================== 顶部四个分区 ====================
+MISSION=任务
+DOCUMENTATION=文档
+PERFORMANCE=性能
+UTILITIES=工具
+
+# ==================== 底部软键 ====================
+FLT OPS/MENU=飞行运行/菜单
+FLT OPS MENU=飞行运行/菜单
+GROUND=地面
+LOADSHEET=载重表
+OFF=关闭
+T.O PERF=起飞性能
+LDG PERF=着陆性能
+TERML CHART=终端区航图
+TERMINAL CHART=终端区航图
+ENROUTE=航路
+
+# ==================== 任务页 ====================
+FLT OPS PLAN=飞行运行计划
+FLT OPS STS=飞行运行状态
+FLT OPS CLEAR/TURNAROUND=飞行运行 清除/过站
+FLT OPS CLEAR / TURNAROUND=飞行运行 清除/过站
+
+# ==================== 文档页 ====================
+OFF LOG BOOK=关闭 飞行记录簿
+LOGBOOK=飞行记录簿
+LOGBOOKS=飞行记录簿
+
+# ==================== 工具页 ====================
+AOC=AOC 航务
+MAINTENANCE=维护
+SITUATIONS=情景
+AUTOSAVE=自动保存
+PANEL STATES=面板状态
+OPTIONS=选项
+SCENARIOS=情景
+
+# ==================== OFP 运行飞行计划页 ====================
+OFP=OFP 运行飞行计划
+Summary & Fuel=摘要与燃油
+Routing=航路
+Times & Weights=时间与重量
+Flight Log=飞行日志
+Winds/Aloft=风/高空风
+ATC Flight Plan=ATC 飞行计划
+AOC/Airports=AOC/机场
+Airport WX List=机场天气列表
+NOTAM=航行通告
+Company NOTAM=公司通告
+GENERATE PLAN=生成计划
+SEND TO FMS=发送到 FMS
+SYNC FMS=同步 FMS
+SYNC SIMBRIEF=同步 SimBrief
+SIMBRIEF IMPORT=SimBrief 导入
+SIMBRIEF USER ID=SimBrief 用户名
+RELOAD SIMBRIEF=重新载入 SimBrief
+SAVE ALTERNATES PLAN=保存备降计划
+SAVE DEPARTURE TIME=保存起飞时间
+SAVE NOW=立即保存
+Submitting Plan...=正在提交计划...
+Unknown error connecting to SimBrief=连接 SimBrief 时发生未知错误
+Navigraph Authentication Required=需要 Navigraph 认证
+Navigraph Credentials Cleared=Navigraph 凭据已清除
+Navigraph Navdata Updated=Navigraph 导航数据已更新
+LOGIN WITH NAVIGRAPH=使用 Navigraph 登录
+RESET NAVIGRAPH=重置 Navigraph
+UPDATE NAVDATA=更新导航数据
+NAVDATA DOWNLOADED=导航数据已下载
+TERRAIN DOWNLOADED=地形数据已下载
+Terrain Download Complete=地形下载完成
+Terrain Download Failed=地形下载失败
+Terrain Download Requested=已请求下载地形
+START DOWNLOAD=开始下载
+UPDATE DATA=更新数据
+NAVDATA=导航数据
+NAVIGATION=导航
+Select Arrival Runway=选择到达跑道
+Select Departure Runway=选择起飞跑道
+Select UTC Departure Time=选择 UTC 起飞时间
+Selected Chart=已选航图
+No pages found for this chart=此航图没有可用页面
+Runway Analysis=跑道分析
+Wind Info=风信息
+WIND DATA=风数据
+WINDHDG=风向/航向
+WINDSPD=风速
+IN FLT PERF=空中性能
+T.O DATA=起飞数据
+T.O SHIFT=起飞位移
+VSD PLAN MODE=VSD 计划模式
+IRS ALIGN=IRS 对准
+STANDBY NAV DISPLAY=备用导航显示
+RUDDER CTRL TILLER=方向舵控制/前轮转弯
+HOPPIE LOGON=HOPPIE 登录
+STREAMER MODE=主播模式
+SAYINTENTIONS API KEY=SayIntentions API 密钥
+SIM DEFAULT=模拟默认
+SIMULATION PAUSED=模拟已暂停
+SIMULATION=模拟
+TIME COMPRESSION=时间压缩
+UP TO 2X=最高 2 倍
+UP TO 4X=最高 4 倍
+RESTART EFB=重启 EFB
+
+# ==================== 重量与载重 ====================
+TOTAL WEIGHT=总重
+ZFW=零油重量
+LOAD CG=装载重心
+LOAD CONFIG=装载构型
+Weight Unit=重量单位
+Weight unit changed=重量单位已更改
+Zero Fuel Weight and Fuel Updated=零油重量与燃油已更新
+SET FUEL=设定燃油
+SET ZFW=设定零油重量
+LOAD WITH GSX=用 GSX 装载
+Full KG/LBS Value for Freight & Fuel=货运与燃油的 KG/LBS 满值
+FUELING=加油中
+FUELING PANEL=加油面板
+FUELING STATE=加油状态
+Loading fuel. Please wait.=正在加油，请稍候。
+Loading fuel complete.=加油完成。
+Instant Refuel=立即加油
+Unable to find safe performance data=找不到安全性能数据
+
+# ==================== 地面勤务 ====================
+JETWAY=廊桥
+JETWAY TOGGLED=廊桥（已切换）
+GPU=地面电源
+GPU AVAILABLE=地面电源可用
+GPU REMOVED=地面电源已撤除
+STAIRS=舷梯
+LEFT STAIRS=左舷梯
+LUGGAGE=行李
+LUGGAGE SERVICE TOGGLED=行李服务（已切换）
+CATERING=配餐
+REFUEL=加油
+HYD REFILL PANEL=液压补充面板
+HYDRAULICS=液压
+HYDRAULICS SERVICE REQUESTED=已请求液压勤务
+SERVICE APU=APU 勤务
+SERVICE ENGINES=发动机勤务
+SERVICE HYDRAULICS=液压勤务
+GROUND EQUIP=地面设备
+TURNAROUND START=开始过站
+FWD CARGO=前货舱
+FWD CARGO HOLD=前货舱
+FWD CARGO DOOR TOGGLED=前货舱门（已切换）
+LEFT ENGINE COWL TOGGLED=左发动机整流罩（已切换）
+RIGHT ENGINE COWL TOGGLED=右发动机整流罩（已切换）
+LEFT ENGINE STAIRS TOGGLED=左发动机梯（已切换）
+GSX MENU=GSX 菜单
+GSX Menu not available=GSX 菜单不可用
+LOAD WITH GSX=用 GSX 装载
+
+# ==================== 情景 ====================
+MEDICAL EMERGENCY=医疗紧急情况
+UNRULY PASSENGER=滋事旅客
+SMOKE IN THE CABIN=客舱冒烟
+Simulate an in cabin medical emergency=模拟客舱医疗紧急情况
+Simulate the failure of both engines=模拟双发失效
+WARNING LIGHTS=警告灯
+RESET ALL=全部复位
+RESET BRAKE TEMP=复位刹车温度
+RESET CALIBRATION=复位校准
+RESET CREDENTIALS=清除凭据
+RESET VOLUME=复位音量
+RESET SLIDES=复位滑梯
+Tires Replaced=轮胎已更换
+RESET TO NOW +30m=重置为现在 +30 分钟
+TOGGLE SLIDE ARMING=切换滑梯预位
+SlideDeployed=滑梯已放出
+
+# ==================== 设置项 ====================
+MASTER VOLUME=主音量
+VOLUME CONTROL=音量控制
+NOISE CANCELLING HEADPHONES=降噪耳机
+THROTTLE CALIBRATION=油门校准
+Throttle Calibration Reset=油门校准已复位
+USE GLOBAL DEADZONE=使用全局死区
+LIGHT TYPE=灯光类型
+SOUND/CABIN OPTIONS=声音/客舱选项
+ICE AND RAIN PROTECTION=防冰与防雨
+STRUCTURAL DEICE SWITCH=结构除冰开关
+WINDSHIELD DEICE SWITCH=风挡除冰开关
+TAXI CAMERA LIGHT=滑行摄像机灯
+HUD COVERS=HUD 盖板
+WING HOOKS=机翼挂钩
+SHARKLETS=翼尖小翼
+SSA PROBE=SSA 探头
+STATIC WICKS=静电放电刷
+LINKED INSTR=联动仪表
+LANDING GEAR=起落架
+LIGHTS=灯光
+NO SMOKING=禁止吸烟
+NO SMOKING SIGNS=禁止吸烟信号牌
+NO PED=禁止走动手提电子设备
+MAINTENANCE OPTIONS=维护选项
+SCS OUTLETS=SCS 插座
+SATCOM=卫星通信
+MANIPULATOR=操纵器
+SITUATION MANAGER=情景管理器
+
+# ==================== 通用按钮/提示 ====================
+SEARCH=搜索
+RESULTS=结果
+SELECT=选择
+MENU=菜单
+Next Page=下一页
+NEW=新建
+UPDATE=更新
+SAVE=保存
+CANCEL=取消
+CLOSE=关闭
+Zoom in=放大
+Zoom out=缩小
+YES=是
+None=无
+Unknown=未知
+Unspecified=未指定
+No data to display=无数据可显示
+SimIdent=模拟标识
+Reset=复位
+Submit=提交
+Manual=人工
+Standby=待机
+Inactive=未激活
+Active=激活
+Test=测试
+Training=训练
+Simple=简单
+Medium=中等
+Heavy=重
+Light=轻
+Standard=标准
+Restricted=受限
+IAC=IAC
+VAC=VAC
+UNRULY PASSENGER=滋事旅客
+Unable to toggle when airborne=空中无法切换
+Unable to toggle when moving=移动中无法切换
+This action requires all engines to be off=此操作需要所有发动机已关闭
+INBOX=收件箱
+INBOXES=收件箱
+SENT=已发送
+HOURS=小时
+HOUR=小时
+MINS=分钟
+MINUTE=分钟
+SECOND=秒
+Seconds=秒
+TODAY=今天
+TOMORROW=明天
+UTC=UTC
+TERMINAL=航站楼
