@@ -1,0 +1,52 @@
+# A350 座舱中文 —— 值级对照表
+#
+# 原理：按「英文原文」匹配，不按键名。
+#   iniBuilds 以后增删或改名键，只要那句话还是这些英文，就照样被翻译。
+#   这是本方案能扛住后续版本更新的根本原因。
+#
+# 格式：英文原文=中文译文     （每行一条，# 开头为注释）
+# 说明：这里只放"短状态词/通用动作词"。面板专属的开关名请放到 键对照.txt
+#
+# 前 10 条就能覆盖座舱全部提示的约 47%，前 40 条约 55%。
+
+PUSH=按下
+PRESS=按下
+PULL=拉出
+KEY=按键
+OFF=关
+ON=开
+OPEN=打开
+CLOSE=关闭
+OPEN GUARD=打开保护盖
+TOGGLE RECEPTION=切换接收
+INSERTS A CHARACTER=输入一个字符
+INSERT A NUMBER=输入一个数字
+ADJUST=调节
+TRANSMISSION KEY=发射键
+STOWED=已收起
+STOW=收起
+DEPLOYED=已展开
+DEPLOY=展开
+NORMAL=正常
+NORM=正常
+DOWN=下
+UP=上
+ZOOM=缩放
+WHEEL=滚轮
+LINE SELECTION KEY=行选键
+ACTIVATION/DIALING KEY=激活/拨号键
+DEPLOY OR STOW SUN SHADE VISOR=展开或收起遮阳板
+MOVE THE CURSOR=移动光标
+SCROLL=滚动
+PUSH TO RESET=按下复位
+AUTO=自动
+TEST=测试
+BRT=亮
+DIM=暗
+RESET=复位
+ARMED=已预位
+OPEN/CLOSE=打开/关闭
+SELECT=选择
+TOGGLE=切换
+MODE=模式
+SET=设定
