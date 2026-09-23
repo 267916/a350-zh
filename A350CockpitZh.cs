@@ -23,7 +23,7 @@ class A350CockpitZh
     {
         var h = new Dictionary<string, string>();
         if (!File.Exists(p)) return h;
-        foreach (string raw in File.ReadAllLines(p, Encoding.UTF8))
+        foreach (string raw in ReadLinesAuto(p))
         {
             string s = raw.Trim();
             if (s.Length == 0 || s[0] == '#') continue;
@@ -215,7 +215,7 @@ class A350CockpitZh
             sb.Append(JsStr(kv.Key)).Append(":").Append(JsStr(kv.Value));
         }
         sb.Append("}");
-        string body = File.ReadAllText(tpl, Encoding.UTF8);
+        string body = ReadTextAuto(tpl);
         // 模板自带的注释里也有中文，一并转义掉，保证输出是纯 ASCII
         var clean = new StringBuilder();
         foreach (char ch in body)
@@ -360,6 +360,33 @@ class A350CockpitZh
             if (changed) File.WriteAllText(lj, text, new UTF8Encoding(false));
         }
         catch { }
+    }
+    // ==================== 编码自动识别 ====================
+    // 玩家用记事本改词表时可能存成 ANSI/GBK，这里自动识别，避免出现乱码。
+    // 顺序：BOM → 严格 UTF-8 → GBK(936) → 系统默认编码
+    static string ReadTextAuto(string path)
+    {
+        byte[] b = File.ReadAllBytes(path);
+        if (b.Length >= 3 && b[0] == 0xEF && b[1] == 0xBB && b[2] == 0xBF)
+            return new UTF8Encoding(false).GetString(b, 3, b.Length - 3);
+        if (b.Length >= 2 && b[0] == 0xFF && b[1] == 0xFE)
+            return Encoding.Unicode.GetString(b, 2, b.Length - 2);
+        if (b.Length >= 2 && b[0] == 0xFE && b[1] == 0xFF)
+            return Encoding.BigEndianUnicode.GetString(b, 2, b.Length - 2);
+        try
+        {
+            return new UTF8Encoding(false, true).GetString(b);      // 严格：非法字节直接抛异常
+        }
+        catch (DecoderFallbackException)
+        {
+            try { return Encoding.GetEncoding(936).GetString(b); }   // 退回 GBK
+            catch { return Encoding.Default.GetString(b); }
+        }
+    }
+
+    static string[] ReadLinesAuto(string path)
+    {
+        return ReadTextAuto(path).Replace("\r\n", "\n").Replace("\r", "\n").Split('\n');
     }
     static void Main(string[] args)
     {
