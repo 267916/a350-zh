@@ -1,0 +1,437 @@
+# A350 座舱中文 —— 面板名称词表（.TITLE 取值）
+#
+# 这是"按取值翻译"的第二张表，和 值对照.txt 一起生效。
+# 覆盖全部 911 条 .TITLE（含重复，实际 444 个不同取值）。
+#
+# 原则：保留航空标准缩略语（APU/ADR/IR/VHF…），翻译描述性部分。
+#      单字母、数字、符号类（键盘字母、0-9、方向箭头）不翻译，故不在此表。
+#
+# 格式：英文原文=中文译文
+
+# ---------- A ----------
+A/BRK=自动刹车
+A/THR DISCONNECT=自动推力断开
+ABN=异常
+ABV=高于
+ACCU REINFLATE=蓄能器充压
+ACMS TRIGGER=ACMS 触发
+ADR 1=ADR 1
+ADR 2=ADR 2
+ADR 3=ADR 3
+ADR 1 MODE SELECTOR=ADR 1 模式选择器
+ADR 2 MODE SELECTOR=ADR 2 模式选择器
+ADR 3 MODE SELECTOR=ADR 3 模式选择器
+AFT=后
+AFT ISOL VALVES=后隔离活门
+AGENT=灭火剂
+AGENT 1=灭火剂 1
+AGENT 2=灭火剂 2
+AGENT TO AFT=灭火剂→后
+AGENT TO AFT GUARD=灭火剂→后（保护盖）
+AGENT TO FWD=灭火剂→前
+AGENT TO FWD GUARD=灭火剂→前（保护盖）
+AIR DATA SELECTOR=大气数据选择器
+AIR FLOW SEL=空气流量选择
+AIRPORTS=机场
+ALL=全部
+ANTI SKID=防滞
+APU=APU
+APU BLEED=APU 引气
+APU ECON MODE=APU 经济模式
+APU FIRE=APU 灭火
+APU FIRE GUARD=APU 灭火（保护盖）
+APU GEN=APU 发电机
+ARMREST=扶手
+ATC COM=ATC 通信
+AUTOLAND=自动着陆
+AVIONICS BAY HATCH=电子设备舱盖板
+AVNCS EXTRACT=电子设备舱排气
+
+# ---------- B ----------
+BACKSPACE=退格
+BAROMETRIC REFERENCE KNOB=气压基准旋钮
+BAROMETRIC REFERENCE SELECTOR=气压基准选择器
+BAT 1=1 号电瓶
+BAT 2=2 号电瓶
+BAT EMER 1=应急电瓶 1
+BAT EMER 2=应急电瓶 2
+BAT SELECTOR=电瓶选择器
+BLEED=引气
+BLW=低于
+BRAKE FANS=刹车风扇
+BRIGHTNESS DEC=亮度 减小
+BRIGHTNESS INC=亮度 增大
+BRT/OFF KNOB=亮度/关 旋钮
+BULK ISOL VALVES=散货舱隔离活门
+BULK TEMP REGUL SEL=散货舱温度调节选择
+BUS TIE=汇流条联络
+
+# ---------- C ----------
+CAB=客舱
+CAB DATA TO OIS=客舱数据→OIS
+CAB FANS=客舱风扇
+CAB KNOB=客舱旋钮
+CAB REST=客舱休息
+CABIN ALT MODE=客舱高度模式
+CABIN ALT TRGT SEL=客舱高度目标选择
+CABIN SEL=客舱选择
+CABIN V/S MODE=客舱升降率模式
+CABIN V/S TRGT SEL=客舱升降率目标选择
+CAPT AND PURS SWITCH=机长与乘务长开关
+CAPT HUD=机长 HUD
+CAPT HUD BRIGHTNESS=机长 HUD 亮度
+CAPT HUD COVER=机长 HUD 保护盖
+CAPT HUD DECLUTTER=机长 HUD 精简显示
+CAPT HUD X-WIND MODE SWITCH=机长 HUD 侧风模式开关
+CAPT OIS ON CENTER=机长 OIS 在中央
+CAPTAIN LEFT ARMREST=机长左扶手
+CAPTAIN RIGHT ARMREST=机长右扶手
+CAPTAIN SUN SHADE=机长遮阳板
+CAPTAIN TILLER DISCONNECT=机长前轮转弯断开
+CENTER SUN SHADE=中央遮阳板
+CHECKLIST LEFT=检查单 左
+CHECKLIST RIGHT=检查单 右
+CKPT DOOR=驾驶舱门
+CKPT DOOR LCKG SYS=驾驶舱门锁系统
+CKPT DOOR LCKG SYS GUARD=驾驶舱门锁系统（保护盖）
+CLEAR LEFT=清除 左
+CLEAR RIGHT=清除 右
+CLR=清除
+CLR INFO=清除信息
+COCKPIT DOOR HANDLE=驾驶舱门手柄
+COCKPIT DOOR LOCK=驾驶舱门锁
+COCKPIT SEL=驾驶舱选择
+COM GND CONNECTION=通讯地面连接
+COM GND CONNECTION GUARD=通讯地面连接（保护盖）
+COMMAND=指令
+COMMAND GUARD=指令（保护盖）
+COMMERCIAL 1=商用 1
+COMMERCIAL 2=商用 2
+COND=空调
+CONSOLE LT KNOB=操纵台灯旋钮
+CONSTRAINTS=限制
+CONTRAST DEC=对比度 减小
+CONTRAST INC=对比度 增大
+COOLG=冷却
+CREW SUPPLY=机组供氧
+
+# ---------- D ----------
+DECIMAL=小数点
+DEFRD=延迟
+DEST=目的地
+DFDR EVENT=DFDR 事件
+DIR=直飞
+DISPCH=签派
+DISPLAY CYCLE=显示循环
+DITCHING=水上迫降
+DOME LT=顶灯
+DOOR=舱门
+DOWN DIRECTION ARROW=向下箭头
+DRIVE 1A=驱动 1A
+DRIVE 1B=驱动 1B
+DRIVE 2A=驱动 2A
+DRIVE 2B=驱动 2B
+DRIVE 1A GUARD=驱动 1A（保护盖）
+DRIVE 1B GUARD=驱动 1B（保护盖）
+DRIVE 2A GUARD=驱动 2A（保护盖）
+DRIVE 2B GUARD=驱动 2B（保护盖）
+DU MASTER=DU 主控
+DU MASTER BRT=DU 主亮度
+
+# ---------- E ----------
+ELEC REMOTE C/B=电气遥控断路器
+ELEVN=升降舵
+ELT=ELT
+ELT GUARD=ELT（保护盖）
+EMER=应急
+EMER CANC=应急取消
+EMER DESCENT=应急下降
+EMER DESCENT GUARD=应急下降（保护盖）
+EMER EXIT LT=应急出口灯
+EMER GEN FAULT LIGHT=应急发电机故障灯
+EMER GUARD=应急（保护盖）
+EMER PRESSURE SEL=应急压力选择
+EMERN CANCEL GUARD=应急取消（保护盖）
+ENG=发动机
+ENG 1 - THRUST LEVER=1 号 - 推力手柄
+ENG 2 - THRUST LEVER=2 号 - 推力手柄
+ENG 1 ANTI ICE=1 号发动机防冰
+ENG 2 ANTI ICE=2 号发动机防冰
+ENG 1 FADEC GND PWR=1 号 FADEC 地面电源
+ENG 1 FADEC GND PWR GUARD=1 号 FADEC 地面电源（保护盖）
+ENG 1 FIRE=1 号发动机灭火
+ENG 2 FIRE=2 号发动机灭火
+ENG 1 FIRE GUARD=1 号发动机灭火（保护盖）
+ENG 2 FIRE GUARD=2 号发动机灭火（保护盖）
+ENG 1 MAN START=1 号发动机人工启动
+ENG 2 MAN START=2 号发动机人工启动
+ENG 1 MAN START GUARD=1 号发动机人工启动（保护盖）
+ENG 2 MAN START GUARD=2 号发动机人工启动（保护盖）
+ENG 1 MASTER LEVER=1 号发动机主开关手柄
+ENG 2 MASTER LEVER=2 号发动机主开关手柄
+ENG START SELECTOR=发动机启动选择器
+ENTER=回车
+ERASE=擦除
+ESC=退出
+EXIT=出口
+EXT 1=EXT 1
+EXT 2=EXT 2
+
+# ---------- F ----------
+F/CTL PRIM 1=飞控 主 1
+F/CTL PRIM 2=飞控 主 2
+F/CTL PRIM 3=飞控 主 3
+F/CTL SEC 1=飞控 备 1
+F/CTL SEC 2=飞控 备 2
+F/CTL SEC 3=飞控 备 3
+F/CTL PRIM 1 GUARD=飞控 主 1（保护盖）
+F/CTL PRIM 2 GUARD=飞控 主 2（保护盖）
+F/CTL PRIM 3 GUARD=飞控 主 3（保护盖）
+F/CTL SEC 1 GUARD=飞控 备 1（保护盖）
+F/CTL SEC 2 GUARD=飞控 备 2（保护盖）
+F/CTL SEC 3 GUARD=飞控 备 3（保护盖）
+FCTL=飞控
+FCU BRIGHTNESS KNOB LEFT=FCU 亮度旋钮 左
+FCU BRIGHTNESS KNOB RIGHT=FCU 亮度旋钮 右
+FIRE TEST=灭火测试
+FLAPS=襟翼
+FLOOD LT=泛光灯
+FLT REST=飞行休息
+FMS SELECTOR=FMS 选择器
+FO HUD=副驾 HUD
+FO HUD BRIGHTNESS=副驾 HUD 亮度
+FO HUD COVER=副驾 HUD 保护盖
+FO HUD DECLUTTER=副驾 HUD 精简显示
+FO HUD X-WIND MODE SWITCH=副驾 HUD 侧风模式开关
+FO OIS ON CENTER=副驾 OIS 在中央
+FO RIGHT ARMREST=副驾右扶手
+FO SUN SHADE=副驾遮阳板
+FO TILLER DISCONNECT=副驾前轮转弯断开
+FOOT VENT SEL=脚部通风选择
+FOOTREST=脚蹬
+F-PLN=飞行计划
+FUEL=燃油
+FUEL JETTISON ACTIVATE=放油 激活
+FUEL JETTISON ACTIVATE GUARD=放油 激活（保护盖）
+FUEL JETTISON ARM=放油 预位
+FUEL JETTISON ARM GUARD=放油 预位（保护盖）
+FWD=前
+FWD ISOL VALVES=前隔离活门
+FWD TEMP REGUL SEL=前温度调节选择
+
+# ---------- G ----------
+G/S MODE=下滑道模式
+G/S MODE GUARD=下滑道模式（保护盖）
+GAIN=增益
+GALLEY=厨房
+GATELINK=GATELINK
+GEN 1A=发电机 1A
+GEN 1B=发电机 1B
+GEN 2A=发电机 2A
+GEN 2B=发电机 2B
+GND HF DATALINK=地面 HF 数据链
+GND HF DATALINK GUARD=地面 HF 数据链（保护盖）
+GRAVITY GEAR GUARD=重力放起落架（保护盖）
+GREEN ELEC PMP=绿系统电动泵
+GREEN ELEC PMP AUTO=绿系统电动泵 自动
+GREEN ELEC PMP AUTO GUARD=绿系统电动泵 自动（保护盖）
+GREEN ENG 1 PUMP=绿系统 1 号发动机泵
+GREEN ENG 2 PUMP=绿系统 2 号发动机泵
+GREEN ENG 1 SUPPLY=绿系统 1 号供压
+GREEN ENG 2 SUPPLY=绿系统 2 号供压
+GREEN ENG 1 SUPPLY GUARD=绿系统 1 号供压（保护盖）
+GREEN ENG 2 SUPPLY GUARD=绿系统 2 号供压（保护盖）
+
+# ---------- H ----------
+HEATER=加热器
+HEATER SW=加热器开关
+HF1 KNOB=HF1 旋钮
+HF2 KNOB=HF2 旋钮
+HORIZONTAL ELECTRICAL CONTROL=水平电气控制
+HORN OFF=喇叭关断
+HOT AIR 1=热空气 1
+HOT AIR 2=热空气 2
+HYD=液压
+
+# ---------- I ----------
+IFEC=IFEC
+INIT=起始
+INT=内部
+INT KNOB=内部旋钮
+INT/RAD=内部/无线电
+INTEG LT=整体灯
+IR 1=IR 1
+IR 2=IR 2
+IR 3=IR 3
+
+# ---------- J ----------
+JUMPSEAT=折叠座
+
+# ---------- K ----------
+KBD=键盘
+KEYBOARD COVER=键盘盖
+
+# ---------- L ----------
+L TK MAIN=左主油箱
+L TK STBY=左备用油箱
+L TK XFR=左油箱传输
+L TK XFR GUARD=左油箱传输（保护盖）
+L/G GRVTY EXTN=起落架重力放出
+L/G GRVTY EXTN COVER=起落架重力放出 盖板
+L/G LEVER=起落架手柄
+LANDSCAPE CAMERA=外部相机
+LAT VENT/DEFOG SEL=侧窗通风/除雾选择
+LEFT=左
+LEFT DIRECTION ARROW=向左箭头
+LOAD=载入
+LOUDSPEAKER VOLUME CONTROL KNOB=扬声器音量旋钮
+LS/DIR TO=LS/直飞
+LSK 1=LSK 1
+LSK 2=LSK 2
+LSK 3=LSK 3
+
+# ---------- M ----------
+MAIL BOX=邮箱
+MAP LT KNOB=地图灯旋钮
+MASK MAN ON=面罩人工接通
+MASK MAN ON GUARD=面罩人工接通（保护盖）
+MASTER SW=主开关
+MECH CALL=机械师呼叫
+MENU=菜单
+MID=中
+MOBILE COM=移动通讯
+MORE=更多
+MSG CLR=消息清除
+
+# ---------- N ----------
+NAV=导航
+NAVAID=导航台
+NAVAIDS=导航台
+ND MODE SEL=ND 模式选择
+ND RANGE SEL=ND 距离选择
+NDBS=NDB
+NO MOBILE=无移动信号
+NO SMKG/NO PED=禁烟/禁走动
+NOTE PAD=记事本
+
+# ---------- O ----------
+OIS DATA TO AVNCS=OIS 数据→电子设备舱
+OIS SW=OIS 开关
+OIS VIEW OFFSIDE=OIS 查看对侧
+ON/OFF=开/关
+OXYGEN MASK=氧气面罩
+OXYGEN MASK TEST=氧气面罩测试
+OXYGEN PERCENTAGE=氧气百分比
+OXYGEN RESET=氧气复位
+
+# ---------- P ----------
+PA=客舱广播
+PA KNOB=客舱广播旋钮
+PACK 1=空调组件 1
+PACK 2=空调组件 2
+PARK BRK=停留刹车
+PAX SYS=旅客系统
+PEDALS LT SW=脚蹬灯开关
+PEN=笔
+PERF=性能
+PERIOD=句点
+PITCH TRIM=俯仰配平
+PLUS=加号
+PRINTER=打印机
+PROBE & WINDOW HEAT=探头与风挡加温
+PURS=乘务长
+
+# ---------- R ----------
+R TK MAIN=右主油箱
+R TK STBY=右备用油箱
+R TK XFR=右油箱传输
+R TK XFR GUARD=右油箱传输（保护盖）
+RAD NAV=无线电导航
+RAD NAV GUARD=无线电导航（保护盖）
+RAIN REPELLENT=防雨剂
+RAM AIR=冲压空气
+RAM AIR GUARD=冲压空气（保护盖）
+RAT MAN ON=RAT 人工接通
+RAT MAN ON GUARD=RAT 人工接通（保护盖）
+RCDR GND CTL=记录器地面控制
+RCL ALL=调出全部
+RCL LAST=调出最近
+READING LIGHT=阅读灯
+READING LT=阅读灯
+REFUEL=加油
+RIGHT=右
+RIGHT DIRECTION ARROW=向右箭头
+ROW/ROP=ROW/ROP
+RST=复位
+RUDDER TRIM=方向舵配平
+RWY COND/BRAKING ACTION KNOB=跑道状况/刹车效应 旋钮
+RWY COND/BRAKING ACTION SELECTOR=跑道状况/刹车效应 选择器
+
+# ---------- S ----------
+SD KNOB=SD 旋钮
+SEAT BELTS=安全带
+SEC INDEX=备用索引
+SET/SEL KNOB=设定/选择 旋钮
+SHOULDER HARNESS=肩带
+SIDE 1&2 ISOL=1&2 侧隔离
+SIDESTICK PUSH BUTTON=侧杆按钮
+SLIDING TABLE=滑动桌板
+SLIDING TABLE LIGHTS KNOB=滑动桌板灯旋钮
+SPACE=空格
+SPEED BRAKE=减速板
+SQWK=应答机编码
+START=启动
+STD/CHANGE=标准/变更
+STS=状态
+SURV=监视
+SVCE INT OVRD=内话超控
+
+# ---------- T ----------
+T.O SURV=起飞监视
+TA=TA
+TAXI=滑行
+TEL1=TEL1
+TEL1 KNOB=TEL1 旋钮
+TEL2 KNOB=TEL2 旋钮
+TERRAIN=地形
+TO CONFIG=起飞构型
+TOWING ON BAT=电瓶拖机
+TRAFFIC=交通
+
+# ---------- U ----------
+UP DIRECTION ARROW=向上箭头
+
+# ---------- V ----------
+VD AZIM=VD 方位
+VERTICAL ELECTRICAL CONTROL=垂直电气控制
+VHF1 KNOB=VHF1 旋钮
+VHF2 KNOB=VHF2 旋钮
+VHF3 KNOB=VHF3 旋钮
+VIDEO=视频
+VOICE KNOB=语音旋钮
+VV=VV
+
+# ---------- W ----------
+WAYPOINTS=航路点
+WEATHER=天气
+WINDSHIELD DEFOG=风挡除雾
+WING ANTI ICE=机翼防冰
+WIPER SELECTOR=雨刷选择器
+WXR SYS 1=气象雷达系统 1
+WXR SYS 2=气象雷达系统 2
+
+# ---------- X ----------
+XBLEED=交输引气
+XPDR SYS 1=应答机系统 1
+XPDR SYS 2=应答机系统 2
+
+# ---------- Y ----------
+YELLOW ELEC PMP=黄系统电动泵
+YELLOW ELEC PMP AUTO=黄系统电动泵 自动
+YELLOW ELEC PMP AUTO GUARD=黄系统电动泵 自动（保护盖）
+YELLOW ENG 1 PUMP=黄系统 1 号发动机泵
+YELLOW ENG 2 PUMP=黄系统 2 号发动机泵
+YELLOW ENG 1 SUPPLY=黄系统 1 号供压
+YELLOW ENG 2 SUPPLY=黄系统 2 号供压
+YELLOW ENG 1 SUPPLY GUARD=黄系统 1 号供压（保护盖）
+YELLOW ENG 2 SUPPLY GUARD=黄系统 2 号供压（保护盖）
