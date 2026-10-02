@@ -454,7 +454,7 @@ class A350CockpitZh
             if (File.Exists(StatePath)) Console.WriteLine("上次应用：" + File.ReadAllText(StatePath, Encoding.UTF8).Trim());
             Console.WriteLine();
             Console.WriteLine("判断：");
-            Console.WriteLine("  已翻译条数 ≈ 2124  → 正常，无需操作");
+            Console.WriteLine("  已翻译条数 ≈ 3638  → 正常，无需操作");
             Console.WriteLine("  已翻译条数 ≈ 3     → 被官方更新覆盖了，重新运行本程序即可");
             Console.WriteLine();
             try { Console.ReadKey(true); } catch { }
